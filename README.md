@@ -1,4 +1,4 @@
 OreGen2
 =======
 
-Source code and more for my Bukkit plugin OreGen2.
+OreGen2 Revision for Protocodyne PTS Server
