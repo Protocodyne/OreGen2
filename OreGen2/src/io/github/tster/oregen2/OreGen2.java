@@ -37,7 +37,7 @@ public final class OreGen2 extends JavaPlugin implements Listener {
 
 	@EventHandler
 	public void cobbleGeneration(BlockFromToEvent event) {
-		if (event.getToBlock().getType() == Material.COBBLESTONE
+		if (event.getToBlock().getType() == Material.AIR
 				&& event.getToBlock().getRelative(event.getFace()).getType() == Material.STATIONARY_WATER) {
 			// If the 'to' block is cobble now and the block behind that is
 			// water
